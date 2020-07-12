@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Weather Forecast</title>
+    <link rel="stylesheet" href="./style.css">
+
+
+    <link href="https://fonts.googleapis.com/css2?family=Rubik:wght@700&family=Work+Sans&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@700&display=swap" rel="stylesheet">
+    <!-- Bootstrap CSS -->
+    <!--<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">-->
+  </head>
+  <body>
+    <div class="main-display">
+      <div class="wrapper">
+        <div class="location-box">
+          <p class="location">Current Location</p>
+          <p class="date">- -</p>
+        </div>
+
+        <div class="weather-box">
+          <div class="container-one">
+            <div class="weather-icon">
+              <img src="icons/unknown.png" alt="">
+            </div>
+            <div class="temp-div">
+              <p class="current-temperature">- -°<span class="units">C</span></p>
+            </div>
+          </div>
+
+          <p class="temperature-description">- -</p>
+
+          <div class="container-two">
+            <div class="feelslike">
+              <p class="current-feelslike">- °<span class="units">C</span></p>
+              <p>Feels Like</p>
+            </div>
+            <div class="high">
+              <p class="current-high">- °<span class="units">C</span></p>
+              <p>High</p>
+            </div>
+            <div class="low">
+              <p class="current-low">- °<span class="units">C</span></p>
+              <p>Low</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="forecast-box">
+          <div class="forecast">
+            <p class="forecast-date">- -</p>
+            <div class="forecast-icon">
+              <img src="icons/unknown.png" alt="">
+            </div>
+            <div style="height: 32px;">
+              <p class="forecast-description">- -</p>
+            </div>
+            <div class="small-text">
+              <p class="">High: <span class="forecast-high">- °<span class="units">C</span></span></p>
+              <p class="">Low: <span class="forecast-low">- °<span unit="units">C</span></span></p>
+            </div>
+          </div>
+          <div class="forecast">
+            <p class="forecast-date">- -</p>
+            <div class="forecast-icon">
+              <img src="icons/unknown.png" alt="">
+            </div>
+            <div style="height: 32px;">
+              <p class="forecast-description">- -</p>
+            </div>
+            <div class="small-text">
+              <p class="">High: <span class="forecast-high">- °<span class="units">C</span></span></p>
+              <p class="">Low: <span class="forecast-low">- °<span unit="units">C</span></span></p>
+            </div>
+          </div>
+          <div class="forecast">
+            <p class="forecast-date">- -</p>
+            <div class="forecast-icon">
+              <img src="icons/unknown.png" alt="">
+            </div>
+            <div style="height: 32px;">
+              <p class="forecast-description">- -</p>
+            </div>
+            <div class="small-text">
+              <p class="">High: <span class="forecast-high">- °<span class="units">C</span></span></p>
+              <p class="">Low: <span class="forecast-low">- °<span unit="units">C</span></span></p>
+            </div>
+          </div>
+          <div class="forecast">
+            <p class="forecast-date">- -</p>
+            <div class="forecast-icon">
+              <img src="icons/unknown.png" alt="">
+            </div>
+            <div style="height: 32px;">
+              <p class="forecast-description">- -</p>
+            </div>
+            <div class="small-text">
+              <p class="">High: <span class="forecast-high">- °<span class="units">C</span></span></p>
+              <p class="">Low: <span class="forecast-low">- °<span unit="units">C</span></span></p>
+            </div>
+          </div>
+          <div class="forecast">
+            <p class="forecast-date">- -</p>
+            <div class="forecast-icon">
+              <img src="icons/unknown.png" alt="">
+            </div>
+            <div style="height: 32px;">
+              <p class="forecast-description">- -</p>
+            </div>
+            <div class="small-text">
+              <p class="">High: <span class="forecast-high">- °<span class="units">C</span></span></p>
+              <p class="">Low: <span class="forecast-low">- °<span unit="units">C</span></span></p>
+            </div>
+          </div>
+          <div class="forecast">
+            <p class="forecast-date">- -</p>
+            <div class="forecast-icon">
+              <img src="icons/unknown.png" alt="">
+            </div>
+            <div style="height: 32px;">
+              <p class="forecast-description">- -</p>
+            </div>
+            <div class="small-text">
+              <p class="">High: <span class="forecast-high">- °<span class="units">C</span></span></p>
+              <p class="">Low: <span class="forecast-low">- °<span unit="units">C</span></span></p>
+            </div>
+          </div>
+          <div class="forecast">
+            <p class="forecast-date">- -</p>
+            <div class="forecast-icon">
+              <img src="icons/unknown.png" alt="">
+            </div>
+            <div style="height: 32px;">
+              <p class="forecast-description">- -</p>
+            </div>
+            <div class="small-text">
+              <p class="">High: <span class="forecast-high">- °<span class="units">C</span></span></p>
+              <p class="">Low: <span class="forecast-low">- °<span unit="units">C</span></span></p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div> <!-- End .main-display -->
+
+    <div class="buttons">
+      <button class ="celsius-button" type="button">ºC</button>
+      <button class ="fahrenheit-button" type="button">ºF</button>
+    </div>
+
+  <script type="text/javascript" src="./app.js" charset="utf-8"></script>
+  </body>
+</html>
